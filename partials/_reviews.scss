@@ -1,0 +1,62 @@
+#reviews {
+  background: $light-color;
+  padding-bottom: 3rem;
+
+  h2 {
+    padding-top: 2.5rem;
+  }
+  p {
+    font-weight: 500;
+  }
+  .swiper-wrapper {
+    width: $container-lg;
+
+    article {
+      @include gradientBackground;
+      padding: 1.5rem 1.5rem;
+      cursor: default;
+      font-size: 0.9rem;
+      border-radius: 1rem;
+
+      p {
+        color: $light-color;
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: justify;
+      }
+      .customer {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .avatar {
+          overflow: hidden;
+          width: 2.5rem;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+        }
+        h5 {
+          margin-bottom: 1rem;
+          font-size: 0.8rem;
+          padding-top: 0.2rem;
+        }
+      }
+    }
+  }
+  .swiper-pagination-bullet {
+    background: $primary-color;
+  }
+}
+
+/* ---------MEDIA QUERIES(SMALL DEVICES)--------- */
+@media screen and (max-width: 600px) {
+  .swiper {
+    .swiper-wrapper {
+      article {
+        padding-top: 1.5rem;
+      }
+    }
+  }
+}

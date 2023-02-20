@@ -1,0 +1,107 @@
+#contact {
+  background: $light-color;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+
+  .container {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 6%;
+
+    .info {
+      h2 {
+        font-weight: 800;
+        color: $primary-color;
+        text-align: center;
+      }
+
+      p {
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 2rem;
+      }
+      article {
+        display: flex;
+        gap: 1.5rem;
+
+        .icon {
+          overflow: hidden;
+          width: 4.5rem;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+
+          .cont_img {
+            background: $primary-color;
+            color: $primary-color;
+          }
+        }
+
+        h4 {
+          color: $primary-color;
+        }
+        small {
+          margin-top: 0.4rem;
+          display: block;
+          color: $black-color;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .form_group {
+        label {
+          color: $primary-color;
+          font-size: 1rem;
+          margin-bottom: 0.4rem;
+          display: inline-block;
+          font-weight: 600;
+          margin-left: 0.5rem;
+          padding-top: 1rem;
+        }
+
+        input,
+        textarea,
+        select {
+          background: $white-color;
+          padding: 0.8rem 1rem;
+          display: block;
+          width: 100%;
+          border-radius: 1rem;
+          color: $black-color;
+          resize: none;
+          appearance: none;
+        }
+
+        ::placeholder {
+          color: $black-color;
+        }
+      }
+      #btn {
+        margin-top: 1.5rem;
+        @include button;
+        border-radius: 1rem;
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+/* ---------MEDIA QUERIES(SMALL DEVICES)--------- */
+@media screen and (max-width: 600px) {
+  #contact {
+    .container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+
+      form {
+        border-top: 2px solid $primary-color;
+        padding-top: 2rem;
+      }
+    }
+  }
+}

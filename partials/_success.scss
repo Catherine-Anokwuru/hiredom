@@ -1,0 +1,15 @@
+body {
+  .scs {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(119deg, $primary-color, $primary-color-variant);
+  }
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: $white-color;
+}
