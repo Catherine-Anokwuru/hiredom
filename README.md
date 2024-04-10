@@ -3,23 +3,15 @@
 
 ## **Overview**
 
-This is an ecommerce website buit with complete ecommerce functionalities like filtering, searching and cart checkout.  It Utilizes local and session storage to store products and cart data.
+This is a domestic hire website bult with SCSS. The aim of this project was to implement css elements correctly and achieve responsive design across all screen sizes.
 
 ## **Features**
 
-The feature ideas for this project have been completely implemented. In this app, you can:
-
-- Navigate between the different product pages based on brand and categories
+In this app, you can:
  
 - View the optimal layout depending on your device screen size
- 
-- See design and interactive elements on the page
- 
-- Add products to cart from any of the pages
- 
-- Search for product by letter using the search bar
- 
-- Filter products by categories, brands, skin-type or skin-issue
- 
-- Checkout cart products and pay through the Monnify payment gateway
 
+- See hover states for all interactive elements on the page
+
+## **Possible Improvements**
+- It is lacking in functionality and so could be improved on to be fully functional.
