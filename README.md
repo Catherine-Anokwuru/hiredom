@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-This is a domestic hire website bult with SCSS. The aim of this project was to implement css elements correctly and achieve responsive design across all screen sizes.
+This is a domestic hire website bult with SCSS. The aim of this project was to get a good grasp of CSS/SCSS, apply CSS elements correctly and achieve responsive design across all screen sizes.
 
 ## **Features**
 
